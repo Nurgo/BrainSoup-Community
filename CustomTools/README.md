@@ -1,6 +1,6 @@
 # Introduction
 
-In BrainSoup, a **Tool** is a set of **functions** that an agent can utilize to perform specific tasks or operations.
+In [BrainSoup](https://www.nurgo-software.com/products/brainsoup), a **Tool** is a set of **functions** that an agent can utilize to perform specific tasks or operations.
 
 Tools can be enabled or disabled for each agent individually, or at the chat room level. This allows for fine-grained control over the capabilities of the agents.
 

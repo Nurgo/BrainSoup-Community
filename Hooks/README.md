@@ -1,6 +1,6 @@
 # Introduction
 
-In BrainSoup, **Hooks** provide a powerful mechanism to extend and customize the platform's functionality by allowing users to trigger the execution of programs or scripts in response to specific internal events. This feature is highly versatile and can be implemented using any programming language executable on the host machine, making it accessible to a wide range of users with different technical backgrounds.
+In [BrainSoup](https://www.nurgo-software.com/products/brainsoup), **Hooks** provide a powerful mechanism to extend and customize the platform's functionality by allowing users to trigger the execution of programs or scripts in response to specific internal events. This feature is highly versatile and can be implemented using any programming language executable on the host machine, making it accessible to a wide range of users with different technical backgrounds.
 
 # What are Hooks?
 
