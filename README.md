@@ -28,7 +28,7 @@ The repository is structured as follows:
 │   │   ├── script.py
 │   │   └── readme.txt
 │   └── ExampleTool2/
-│       ├── manifest.json
+│   │   ├── manifest.json
 │   │   ├── script.ps1
 │   │   └── readme.txt
 ├── Hooks/
