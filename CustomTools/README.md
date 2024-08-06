@@ -1,4 +1,4 @@
-# Tools
+# Introduction
 
 In BrainSoup, a **Tool** is a set of **functions** that an agent can utilize to perform specific tasks or operations.
 
