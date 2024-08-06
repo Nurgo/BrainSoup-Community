@@ -1,0 +1,46 @@
+{
+    "description": "Send push notifications and SMS via PushBullet",
+    "functions": [
+        {
+            "name": "SendNotification",
+            "description": "Send a push notification to a preconfigured device via PushBullet",
+            "parameters": [
+                {
+                    "name": "title",
+                    "description": "Title of the message",
+                    "isRequired": true
+                },
+                {
+                    "name": "body",
+                    "description": "Body of the message",
+                    "isRequired": true
+                },
+                {
+                    "name": "url",
+                    "description": "optional link to send with the message",
+                    "isRequired": false
+                }
+            ],
+            "command": "powershell -File {{toolPath}}send_notification.ps1",
+            "timeout": 10
+        },
+        {
+            "name": "SendSms",
+            "description": "Send a SMS to a phone via PushBullet. Don't forget to introduce yourself in the message, or sign it.",
+            "parameters": [
+                {
+                    "name": "number",
+                    "description": "Phone number to send the SMS to",
+                    "isRequired": true
+                },
+                {
+                    "name": "message",
+                    "description": "Message to send",
+                    "isRequired": true
+                }
+            ],
+            "command": "powershell -File {{toolPath}}send_sms.ps1",
+            "timeout": 10
+        }
+    ]
+}

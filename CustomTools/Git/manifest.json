@@ -1,0 +1,18 @@
+{
+    "description": "Use Git commands to manage code repositories",
+    "functions": [
+        {
+            "name": "Call",
+            "description": "Call the Git command with the specified parameters",
+            "parameters": [
+                {
+                    "name": "parameters",
+                    "description": "The parameters to pass to the Git command. Use the same syntax as you would in the command line. Use the `-C` option (as the first parameter) to specify the relative path to the repository, if needed.",
+                    "isRequired": true
+                }
+            ],
+            "command": "git {{parameters}}",
+            "timeout": 60
+        }
+    ]
+}

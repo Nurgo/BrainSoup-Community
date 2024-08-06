@@ -1,0 +1,43 @@
+{
+    "description": "Send emails",
+    "functions": [
+        {
+            "name": "Send",
+            "description": "Send an email",
+            "parameters": [
+                {
+                    "name": "recipients",
+                    "description": "semicolon-separated list of recipient email addresses",
+                    "isRequired": true
+                },
+                {
+                    "name": "subject",
+                    "description": "email subject",
+                    "isRequired": true
+                },
+                {
+                    "name": "body",
+                    "description": "email body",
+                    "isRequired": true
+                },
+                {
+                    "name": "cc",
+                    "description": "semicolon-separated list of cc email addresses",
+                    "isRequired": false
+                },
+                {
+                    "name": "bcc",
+                    "description": "semicolon-separated list of bcc email addresses",
+                    "isRequired": false
+                },
+                {
+                    "name": "attachments",
+                    "description": "semicolon-separated list of attachment file paths starting with \"./\"",
+                    "isRequired": false
+                }
+            ],
+            "command": "powershell -File {{toolPath}}send.ps1",
+            "timeout": 60
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "description": "Send messages to Slack channels",
+    "functions": [
+        {
+            "name": "Send",
+            "description": "Send a message to the Slack channel. No need to introduce yourself as your name is already displayed.",
+            "parameters": [
+                {
+                    "name": "message",
+                    "description": "Content of the message",
+                    "isRequired": true
+                }
+            ],
+            "command": "powershell -File {{toolPath}}send.ps1",
+            "timeout": 10
+        }
+    ]
+}

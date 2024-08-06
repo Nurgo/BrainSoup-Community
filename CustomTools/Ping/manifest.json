@@ -1,0 +1,18 @@
+{
+    "description": "Ping computers on the network",
+    "functions": [
+        {
+            "name": "Send",
+            "description": "Send ICMP ECHO_REQUEST datagram to host",
+            "parameters": [
+                {
+                    "name": "destination",
+                    "description": "IP adress or host name",
+                    "isRequired": true
+                }
+            ],
+            "command": "ping {{destination}}",
+            "timeout": 30
+        }
+    ]
+}

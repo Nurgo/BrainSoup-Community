@@ -1,0 +1,18 @@
+{
+    "description": "Generates images from text descriptions using Pollinations",
+    "functions": [
+        {
+            "name": "Generate",
+            "description": "Generates image from text and returns the URL of the image on the local disk. Your response to the user MUST always include an image tag in Markdown format using this unmodified URL.",
+            "parameters": [
+                {
+                    "name": "prompt",
+                    "description": "The detailed image description. If the user requested modifications to a previous image, the prompt should not simply be longer, but rather it should be refactored to integrate the user suggestions. The prompt MUST be in English, translate to English if needed.",
+                    "isRequired": true
+                }
+            ],
+            "command": "powershell -File {{toolPath}}generate_image.ps1",
+            "timeout": 10
+        }
+    ]
+}
