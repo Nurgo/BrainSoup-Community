@@ -56,6 +56,7 @@ We welcome all contributions! To contribute, follow these steps:
 ## Useful Links
 
 - [Official BrainSoup Website](https://www.nurgo-software.com/products/brainsoup)
+- [BrainSoup Documentation](https://help.nurgo-software.com/category/207-getting-started)
 - [Download BrainSoup](https://www.nurgo-software.com/download/BrainSoup.msi)
 
 ## License
